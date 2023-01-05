@@ -1,0 +1,58 @@
+---
+# Clang Format 9 - Main Configuration
+BasedOnStyle: google
+ColumnLimit: 120
+IndentWidth: 2
+TabWidth: 2
+UseTab: Never
+---
+# C++ Specific Configuration
+Language: Cpp
+Standard: c++17
+
+AlignAfterOpenBracket: BlockIndent
+AlignConsecutiveMacros: true
+#   Enabled: true
+#   AcrossEmptyLines: true
+#   AcrossComments: false
+AlignConsecutiveBitFields: true
+#   Enabled: true
+#   AcrossEmptyLines: true
+#   AcrossComments: false
+AlignEscapedNewlines: Right
+AccessModifierOffset: -2
+AlignOperands: false
+AllowShortBlocksOnASingleLine: Empty
+AllowShortCaseLabelsOnASingleLine: true
+AllowShortFunctionsOnASingleLine: Empty
+AllowShortLambdasOnASingleLine: Inline
+AllowShortIfStatementsOnASingleLine: Never
+AllowShortEnumsOnASingleLine: false
+AllowShortLoopsOnASingleLine: false
+BinPackArguments: false
+BinPackParameters: true
+BreakBeforeBraces: Custom
+BraceWrapping:
+  AfterControlStatement: MultiLine
+BreakConstructorInitializers: AfterColon
+BitFieldColonSpacing: Both
+DerivePointerAlignment: false
+EmptyLineAfterAccessModifier: Always
+EmptyLineBeforeAccessModifier: Always
+ExperimentalAutoDetectBinPacking: true
+IndentCaseLabels: true
+IndentExternBlock: NoIndent
+NamespaceIndentation: None
+KeepEmptyLinesAtTheStartOfBlocks: true
+SpacesInLineCommentPrefix:
+  Minimum: 1
+SpaceBeforeParens: Custom
+SpaceBeforeParensOptions:
+  AfterControlStatements: true
+PackConstructorInitializers: CurrentLine
+PointerAlignment: Left
+ReflowComments: true
+SortIncludes: true
+SortUsingDeclarations: true
+---
+
