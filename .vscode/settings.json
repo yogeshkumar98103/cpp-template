@@ -1,0 +1,14 @@
+{
+  "files.associations": {
+    ".clang-format": "yaml",
+    ".clang-tidy": "yaml",
+    ".clangd": "yaml",
+    ".cmake-format": "yaml",
+    "flake.lock": "json"
+  },
+  "search.exclude": {
+    "build": true,
+    "install": true,
+    "external": true
+  }
+}

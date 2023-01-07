@@ -1,5 +1,5 @@
 #include <doctest/doctest.h>
-#include <module1/module1.hpp>
+#include <module2/module2.hpp>
 
 TEST_CASE("Test Module2") {
   SUBCASE("Subtract Positive") {
